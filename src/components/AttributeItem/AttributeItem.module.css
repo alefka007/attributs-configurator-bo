@@ -8,6 +8,10 @@
     gap: 8px;
 }
 
+.active {
+    border-color: #0077C866;
+}
+
 .topRow {
     display: flex;
     align-items: center;
@@ -21,4 +25,10 @@
 .select {
     font-size:  14px;
     font-weight:  400px;
+}
+
+.bottomRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
