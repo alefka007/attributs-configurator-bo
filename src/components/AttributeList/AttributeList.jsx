@@ -8,12 +8,12 @@ const AttributeList = () => {
 
   return (
     <div className={style.list}>
-      {attributes.map((attr, index) => (
+      {attributes.map((attribute, index) => (
         <AttributeItem
           index={index}
           attributes={attributes}
-          attr={attr}
-          key={attr.id}
+          attribute={attribute}
+          key={attribute.id}
         />
       ))}
     </div>
